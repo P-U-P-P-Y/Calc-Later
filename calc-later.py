@@ -26,12 +26,10 @@ def bt_equal():
 expression = ""
  
 input_text = StringVar()
- 
 
 input_frame = Frame(win, width=312, height=50, bd=0, highlightbackground="#193566", highlightcolor="#193566", highlightthickness=2)
  
 input_frame.pack(side=TOP)
- 
  
 input_field = Entry(input_frame, font=('arial', 18, 'bold'), textvariable=input_text, width=50, bg="#eee", bd=0, justify=RIGHT)
  
